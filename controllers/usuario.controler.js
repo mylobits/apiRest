@@ -10,9 +10,7 @@ const getUsuario=(req,res)=>{
 const postUsuario= (req,res=response)=>{
     const body=req.body;
     
-    res.json({
-body
-    })
+    res.json(body)
 }
 
 const putUsuario=(req,res)=>{   
